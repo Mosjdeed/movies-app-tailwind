@@ -32,4 +32,4 @@ A responsive movies website built with Tailwind CSS, featuring the latest movies
 1. Clone the repository:
 ```bash
 git clone https://github.com/Mosjdeed/movies-app-tailwind.git
-ذذذ
+```
