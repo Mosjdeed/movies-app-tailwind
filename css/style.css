@@ -1,0 +1,50 @@
+/* Custom Scrollbar */
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #020307;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #ff2c1f;
+  border-radius: 5rem;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mobile menu active state */
+.navbar.active {
+  display: flex !important;
+}
+
+/* Keep film icon red always */
+.logo i {
+  color: #ff2c1f !important;
+}
+
+/* Header shadow state */
+header.shadow {
+  background-color: #fff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+header.shadow .navbar a {
+  color: #020307 !important;
+}
+
+header.shadow .logo {
+  color: #020307;
+}
+
+header.shadow #menu-icon {
+  color: #020307;
+}
+
+/* Desktop nav colors when not scrolled */
+@media (min-width: 768px) {
+  header:not(.shadow) .navbar a {
+    color: #ff2c1f !important;
+  }
+}
